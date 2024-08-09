@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: bisque;
+    text-align: center;
+    display: inline-block;
+}
+
+.ota {
+    margin-top: 30px;
+    background-color: rgb(228, 196, 196);
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+.nev {
+    justify-content: right;
+}
+
+.back {
+    justify-content: left;
+}
+
+.ota1 {
+    width: 400;
+    height: 600px;
+    display: flex;
+    background-image: url(../background.jpg);
+    background-size: cover;
+}
+
+.ota2 {
+    padding: 10px;
+    width: 400px;
+    height: 580px;
+}
+
+.ota2 {
+    background-color: rgb(228, 196, 196);
+}
+
+.right {
+    display: flex;
+}
+
+.bola1,
+.bola2 {
+    margin: 5px;
+    width: 150px;
+}
+
+.line {
+    width: 100px;
+}
+
+.strelka {
+    display: flex;
+}
+
+.nev strong {
+    padding: 0 8px 0 8px;
+}
